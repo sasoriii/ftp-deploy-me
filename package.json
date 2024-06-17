@@ -1,0 +1,22 @@
+{
+  "name": "ftp-deploy-me",
+  "version": "1.0.1",
+  "description": "Package de déploiement FTP",
+  "main": "index.js",
+  "bin": {
+    "deploy": "./bin/deploy.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ftp-deploy": "^2.3.5",
+    "inquirer": "^8.1.2"
+  },
+  "keywords": [
+    "ftp",
+    "deploy"
+  ],
+  "author": "sasorii",
+  "license": "MIT"
+}
